@@ -1,5 +1,6 @@
 name: "Get new Japanese word definition and generate static page"
 on:
+  workflow_dispatch:
   schedule:
     - cron: 0 1 * * *
 jobs:
