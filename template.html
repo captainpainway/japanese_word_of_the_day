@@ -11,7 +11,7 @@
 </head>
 <body>
     <h1>Japanese Word of the Day</h1>
-    <a id="back"><</a>
+    <a id="back" {{back_href}}><</a>
     <main>
         <p id="kanji">{{kanji}}</p>
         <p id="hiragana">{{hiragana}}</p>
@@ -26,6 +26,12 @@
             <p id="sentence_translation">{{sentence_translation}}</p>
         </div>
     </main>
-    <a id="forward">></a>
+    <a id="forward" {{forward_href}}>></a>
+    <div id="github">
+        <span>Made by <a href="https://mary.codes">Mary Knize</a>.</span>
+        <a href="https://github.com/captainpainway/japanese_word_of_the_day">
+            <img src="/github-mark.svg" alt="GitHub">
+        </a>
+    </div>
 </body>
 </html>
