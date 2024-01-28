@@ -1,0 +1,15 @@
+{
+  "name": "word_of_the_day",
+  "version": "1.0.0",
+  "description": "A new Japanese word every day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maryknize@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3",
+    "dotenv": "^16.4.1"
+  }
+}
