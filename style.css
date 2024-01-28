@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90dvh;
+    height: 100dvh;
     font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, system-ui, sans-serif;
     text-align: center;
 }
@@ -33,7 +33,7 @@ h1 {
 
 #kanji, #hiragana, #katakana {
     font-weight: 700;
-    margin: 0 0 1rem 0;
+    margin: 0;
     color: var(--headline);
 }
 
@@ -47,6 +47,7 @@ h1 {
 
 #romaji {
     font-size: 1.5rem;
+    margin-top: 0.5rem;
     margin-bottom: 0.2rem;
 }
 
@@ -56,7 +57,7 @@ h1 {
 }
 
 #definition {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 1.5rem 0 0 0;
     text-transform: capitalize;
 }
@@ -84,7 +85,7 @@ h1 {
 }
 
 a:not([href]) {
-    display: none;
+    visibility: hidden;
 }
 
 #back, #forward {
