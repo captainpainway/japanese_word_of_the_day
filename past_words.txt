@@ -86,3 +86,4 @@ null
 傘
 null
 null
+郵便局
